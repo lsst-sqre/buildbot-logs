@@ -1,0 +1,157 @@
+1714:2/lsst/home/buildbot/RHEL6//scripts/lsstswBuild.sh --branch feature/SIM-1037-only-calculate-requested-magnitudes --builder_name DM_stack --build_number 4822 --email 'Scott Daniel <scottvalscott@gmail.com>'
+ in dir /lsst/home/lsstsw (timeout 16200 secs)
+ watching logfiles {}
+ argv: ['/lsst/home/buildbot/RHEL6//scripts/lsstswBuild.sh', '--branch', 'feature/SIM-1037-only-calculate-requested-magnitudes', '--builder_name', 'DM_stack', '--build_number', '4822', '--email', 'Scott Daniel <scottvalscott@gmail.com>']
+ environment:
+  CVS_RSH=ssh
+  EUPSPKG_SOURCE=package
+  EUPS_DIR=/lsst/home/lsstsw/eups/1.5.4
+  EUPS_PATH=/lsst/home/lsstsw/stack
+  EUPS_SHELL=sh
+  G_BROKEN_FILENAMES=1
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HOME=/home/lsstsw
+  HOSTNAME=lsst-dev.ncsa.illinois.edu
+  KDEDIRS=/usr
+  KDE_IS_PRELINKED=1
+  LANG=en_US.UTF-8
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  LOGNAME=lsstsw
+  LSST_BUILD_DIR=/home/lsstsw/lsst_build
+  MAIL=/var/spool/mail/lsstsw
+  MANPATH=/home/lsstsw/lfs/share/man:
+  OLDPWD=/nfs/home/lsstsw
+  PATH=/home/lsstsw/lsst_build/bin:/home/lsstsw/bin:/home/lsstsw/lfs/bin:/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/lsst/home/lsstsw/eups/1.5.4/bin:/home/lsstsw/bin
+  PWD=/lsst/home/lsstsw
+  PYTHONPATH=/home/lsstsw/lsst_build/python:/lsst/home/lsstsw/eups/1.5.4/python
+  QTDIR=/usr/lib64/qt-3.3
+  QTINC=/usr/lib64/qt-3.3/include
+  QTLIB=/usr/lib64/qt-3.3/lib
+  SCONSFLAGS=opt=3
+  SETUP_EUPS=eups
+  SETUP_LSST_BUILD=lsst_build LOCAL:/home/lsstsw/lsst_build -f Linux64 -Z (none)
+  SHELL=/bin/bash
+  SHLVL=1
+  TERM=linux
+  USER=lsstsw
+  _=/lsst/home/lsstsw/.local/bin/buildslave
+ using PTY: False
+,1632:0BRANCH:feature/SIM-1037-only-calculate-requested-magnitudes master:
+REF_LIST:  -r feature/SIM-1037-only-calculate-requested-magnitudes -r master   pwd: /lsst/home/lsstsw    NEW_BUILD: no
+Check reusable stack has well-formed eups directory
+notice: lsstsw tools have been set up.
+MANPATH=/lsst/home/lsstsw/lfs/share/man:
+HOSTNAME=lsst-dev.ncsa.illinois.edu
+LSSTSW=/lsst/home/lsstsw
+SHELL=/bin/bash
+TERM=linux
+HISTSIZE=1000
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+USER=lsstsw
+MAIL=/var/spool/mail/lsstsw
+PATH=/lsst/home/lsstsw/lsst_build/bin:/lsst/home/lsstsw/bin:/lsst/home/lsstsw/lfs/bin:/lsst/home/lsstsw/anaconda/bin:/home/lsstsw/bin:/home/lsstsw/lfs/bin:/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/lsst/home/lsstsw/eups/1.5.4/bin
+PWD=/lsst/home/lsstsw
+SETUP_LSST_BUILD=lsst_build LOCAL:/lsst/home/lsstsw/lsst_build -f Linux64 -Z (none)
+LANG=en_US.UTF-8
+KDE_IS_PRELINKED=1
+SCONSFLAGS=opt=3
+REF_LIST= -r feature/SIM-1037-only-calculate-requested-magnitudes -r master
+KDEDIRS=/usr
+EUPS_PATH=/lsst/home/lsstsw/stack
+EUPS_SHELL=sh
+HISTCONTROL=ignoredups
+SHLVL=2
+HOME=/home/lsstsw
+LSST_BUILD_DIR=/lsst/home/lsstsw/lsst_build
+SETUP_EUPS=eups
+EUPS_DIR=/lsst/home/lsstsw/eups/1.5.4
+PYTHONPATH=/lsst/home/lsstsw/lsst_build/python:/lsst/home/lsstsw/eups/1.5.4/python
+EUPSPKG_SOURCE=package
+LOGNAME=lsstsw
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+G_BROKEN_FILENAMES=1
+_=/usr/bin/printenv
+Rebuild is commencing....stand by; using  -r feature/SIM-1037-only-calculate-requested-magnitudes -r master
+,2852:1           lsst_sims:  ok (2.4 sec).
+            sims_maf:  ok (10.2 sec).
+                base:  ok (5.3 sec).
+               boost:  ok (5.6 sec).
+              python:  ok (3.3 sec).
+          sconsUtils:  ok (6.8 sec).
+               scons:  ok (1.3 sec).
+             doxygen:  ok (1.4 sec).
+                swig:  ok (1.0 sec).
+               numpy:  ok (0.6 sec).
+          matplotlib:  ok (0.7 sec).
+             pyephem:  ok (0.7 sec).
+               palpy:  ok (0.9 sec).
+          pex_config:  ok (1.8 sec).
+            daf_base:  ok (3.4 sec).
+               utils:  ok (4.6 sec).
+      pex_exceptions:  ok (4.7 sec).
+          pex_policy:  ok (5.0 sec).
+sims_catalogs_generation:  ok (6.3 sec).
+          sims_utils:  ok (2.0 sec).
+      sims_photUtils:  ok (6.5 sec).
+sims_catalogs_measures:  ok (6.9 sec).
+    sims_sed_library:  ok (8.5 sec).
+       sims_dustmaps:  ok (2.9 sec).
+     sims_coordUtils:  ok (3.0 sec).
+         throughputs:  ok (3.5 sec).
+              pyfits:  ok (3.7 sec).
+                 afw:  ok (16.0 sec).
+     daf_persistence:  ok (22.0 sec).
+         mysqlclient:  ok (6.7 sec).
+         pex_logging:  ok (17.6 sec).
+             ndarray:  ok (11.6 sec).
+               eigen:  ok (2.8 sec).
+                fftw:  ok (2.4 sec).
+             cfitsio:  ok (2.2 sec).
+              wcslib:  ok (6.8 sec).
+                 xpa:  ok (3.1 sec).
+             minuit2:  ok (2.9 sec).
+                 gsl:  ok (3.6 sec).
+             afwdata:  ok (5.5 sec).
+              healpy:  ok (2.8 sec).
+         pykg_config:  ok (2.4 sec).
+         obs_lsstSim:  ok (6.7 sec).
+     daf_butlerUtils:  ok (4.8 sec).
+              skypix:  ok (7.2 sec).
+                geom:  ok (5.2 sec).
+     meas_algorithms:  ok (6.7 sec).
+           pipe_base:  ok (8.6 sec).
+            obs_test:  ok (5.2 sec).
+           meas_base:  ok (10.4 sec).
+         coadd_utils:  ok (6.2 sec).
+              ip_isr:  ok (13.7 sec).
+          pipe_tasks:  ok (7.3 sec).
+         meas_astrom:  ok (10.4 sec).
+      astrometry_net:  ok (7.9 sec).
+      meas_deblender:  ok (6.1 sec).
+ astrometry_net_data:  ok (3.5 sec).
+           ip_diffim:  ok (9.6 sec).
+    coadd_chisquared:  ok (9.3 sec).
+              skymap:  ok (5.2 sec).
+         mysqlpython:  ok (12.1 sec).
+       sims_catUtils:  ok (5.1 sec).
+           sims_data:  ok (2.3 sec).
+             pymssql:  ok (2.0 sec).
+             freetds:  ok (2.0 sec).
+              GalSim:  ok (5.8 sec).
+                 tmv:  ok (8.5 sec).
+        lsst_distrib:  ok (5.5 sec).
+                lsst:  ok (4.5 sec).
+           lsst_apps:  ok (4.9 sec).
+           lsst_libs:  ok (10.0 sec).
+     lsst_thirdparty:  ok (7.1 sec).
+                 apr:  ok (2.6 sec).
+              scisql:  ok (2.7 sec).
+               mysql:  ok (8.2 sec).
+              sqlite:  ok (10.3 sec).
+       meas_modelfit: ,183:2
+remoteFailed: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+],

@@ -1,0 +1,101 @@
+1735:2/lsst/home/buildbot/RHEL6//scripts/lsstswBuild.sh --branch tickets/DM-1176 --builder_name DM_stack --build_number 574 --email 'ro <rowen@uw.edu>'
+ in dir /lsst/home/lsstsw (timeout 16200 secs)
+ watching logfiles {}
+ argv: ['/lsst/home/buildbot/RHEL6//scripts/lsstswBuild.sh', '--branch', 'tickets/DM-1176', '--builder_name', 'DM_stack', '--build_number', '574', '--email', 'ro <rowen@uw.edu>']
+ environment:
+  CVS_RSH=ssh
+  EUPS_DIR=/lsst/home/lsstsw/eups
+  EUPS_PATH=/lsst/home/lsstsw/stack
+  EUPS_SHELL=sh
+  G_BROKEN_FILENAMES=1
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HOME=/lsst/home/lsstsw
+  HOSTNAME=lsst-dev.ncsa.illinois.edu
+  KDEDIRS=/usr
+  KDE_IS_PRELINKED=1
+  LANG=en_US.UTF-8
+  LESSOPEN=|/usr/bin/lesspipe.sh %s
+  LOGNAME=lsstsw
+  LSST_BUILD_DIR=/lsst/home/lsstsw/lsst_build
+  MAIL=/var/spool/mail/lsstsw
+  MANPATH=/lsst/home/lsstsw/lfs/share/man:
+  OLDPWD=/nfs/lsst/home/lsstsw
+  PATH=/lsst/home/lsstsw/lsst_build/bin:/lsst/home/lsstsw/bin:/lsst/home/lsstsw/lfs/bin:/lsst/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/lsst/home/lsstsw/eups/bin:/lsst/home/lsstsw/bin
+  PWD=/lsst/home/lsstsw
+  PYTHONPATH=/lsst/home/lsstsw/lsst_build/python:/lsst/home/lsstsw/eups/python
+  QTDIR=/usr/lib64/qt-3.3
+  QTINC=/usr/lib64/qt-3.3/include
+  QTLIB=/usr/lib64/qt-3.3/lib
+  SCONSFLAGS=opt=3
+  SETUP_EUPS=eups
+  SETUP_LSST_BUILD=lsst_build LOCAL:/lsst/home/lsstsw/lsst_build -f Linux64 -Z (none)
+  SHELL=/bin/bash
+  SHLVL=1
+  TERM=linux
+  USER=lsstsw
+  _=/lsst/home/lsstsw/.local/bin/buildslave
+  setup=() {  eval `$EUPS_DIR/bin/eups_setup           "$@"`
+}
+  unsetup=() {  eval `$EUPS_DIR/bin/eups_setup --unsetup "$@"`
+}
+ using PTY: False
+,1507:0BRANCH:tickets/DM-1176 master:
+REF_LIST:  -r tickets/DM-1176 -r master   pwd: /lsst/home/lsstsw    NEW_BUILD: no
+Check reusable stack has well-formed eups directory
+notice: lsstsw tools have been set up.
+MANPATH=/lsst/home/lsstsw/lfs/share/man:
+HOSTNAME=lsst-dev.ncsa.illinois.edu
+LSSTSW=/lsst/home/lsstsw
+SHELL=/bin/bash
+TERM=linux
+HISTSIZE=1000
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+USER=lsstsw
+MAIL=/var/spool/mail/lsstsw
+PATH=/lsst/home/lsstsw/lsst_build/bin:/lsst/home/lsstsw/bin:/lsst/home/lsstsw/lfs/bin:/lsst/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/lsst/home/lsstsw/eups/bin
+PWD=/lsst/home/lsstsw
+SETUP_LSST_BUILD=lsst_build LOCAL:/lsst/home/lsstsw/lsst_build -f Linux64 -Z (none)
+LANG=en_US.UTF-8
+KDE_IS_PRELINKED=1
+SCONSFLAGS=opt=3
+REF_LIST= -r tickets/DM-1176 -r master
+KDEDIRS=/usr
+EUPS_PATH=/lsst/home/lsstsw/stack
+EUPS_SHELL=sh
+HISTCONTROL=ignoredups
+SHLVL=2
+HOME=/lsst/home/lsstsw
+LSST_BUILD_DIR=/lsst/home/lsstsw/lsst_build
+SETUP_EUPS=eups
+EUPS_DIR=/lsst/home/lsstsw/eups
+PYTHONPATH=/lsst/home/lsstsw/lsst_build/python:/lsst/home/lsstsw/eups/python
+LOGNAME=lsstsw
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+G_BROKEN_FILENAMES=1
+setup=() {  eval `$EUPS_DIR/bin/eups_setup           "$@"`
+}
+unsetup=() {  eval `$EUPS_DIR/bin/eups_setup --unsetup "$@"`
+}
+_=/usr/bin/printenv
+Rebuild is commencing....stand by; using  -r tickets/DM-1176 -r master
+,103:1a rebuild is already in process.
+The DM stack has been installed at /lsst/home/lsstsw with tag: b253.
+,43:0:LastEupsTag:ThisEupsTag: --> :b249:b253:
+,29:1Failed rebuild of DM stack.
+,253:0The following build artifacts are in directory: /lsst/home/lsstsw/build/FailedLogs/574/
+/lsst/home/lsstsw/build/FailedLogs/574/qserv:
+_build.log
+_build.sh
+_build.tags
+
+/lsst/home/lsstsw/build/FailedLogs/574/sconsUtils:
+_build.log
+_build.sh
+_build.tags
+,56:2program finished with exit code 1
+elapsedTime=3.839389
+,

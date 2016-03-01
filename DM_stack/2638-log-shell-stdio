@@ -1,0 +1,512 @@
+1665:2/lsst/home/buildbot/RHEL6//scripts/lsstswBuild.sh --branch None --builder_name DM_stack --build_number 2638 --email 'everyman <dm-devel@lists.lsst.org>'
+ in dir /lsst/home/lsstsw (timeout 16200 secs)
+ watching logfiles {}
+ argv: ['/lsst/home/buildbot/RHEL6//scripts/lsstswBuild.sh', '--branch', 'None', '--builder_name', 'DM_stack', '--build_number', '2638', '--email', 'everyman <dm-devel@lists.lsst.org>']
+ environment:
+  CVS_RSH=ssh
+  EUPSPKG_SOURCE=package
+  EUPS_DIR=/lsst/home/lsstsw/eups/1.5.4
+  EUPS_PATH=/lsst/home/lsstsw/stack
+  EUPS_SHELL=sh
+  G_BROKEN_FILENAMES=1
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HOME=/lsst/home/lsstsw
+  HOSTNAME=lsst-dev.ncsa.illinois.edu
+  KDEDIRS=/usr
+  KDE_IS_PRELINKED=1
+  LANG=en_US.UTF-8
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  LOGNAME=lsstsw
+  LSST_BUILD_DIR=/lsst/home/lsstsw/lsst_build
+  MAIL=/var/spool/mail/lsstsw
+  MANPATH=/lsst/home/lsstsw/lfs/share/man:
+  OLDPWD=/nfs/lsst/home/lsstsw
+  PATH=/lsst/home/lsstsw/lsst_build/bin:/lsst/home/lsstsw/bin:/lsst/home/lsstsw/lfs/bin:/lsst/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/lsst/home/lsstsw/eups/1.5.4/bin:/lsst/home/lsstsw/bin
+  PWD=/lsst/home/lsstsw
+  PYTHONPATH=/lsst/home/lsstsw/lsst_build/python:/lsst/home/lsstsw/eups/1.5.4/python
+  QTDIR=/usr/lib64/qt-3.3
+  QTINC=/usr/lib64/qt-3.3/include
+  QTLIB=/usr/lib64/qt-3.3/lib
+  SCONSFLAGS=opt=3
+  SETUP_EUPS=eups
+  SETUP_LSST_BUILD=lsst_build LOCAL:/lsst/home/lsstsw/lsst_build -f Linux64 -Z (none)
+  SHELL=/bin/bash
+  SHLVL=1
+  TERM=linux
+  USER=lsstsw
+  _=/lsst/home/lsstsw/.local/bin/buildslave
+ using PTY: False
+,1352:0BRANCH:master:
+REF_LIST:  -r master   pwd: /lsst/home/lsstsw    NEW_BUILD: no
+Check reusable stack has well-formed eups directory
+notice: lsstsw tools have been set up.
+MANPATH=/lsst/home/lsstsw/lfs/share/man:
+HOSTNAME=lsst-dev.ncsa.illinois.edu
+LSSTSW=/lsst/home/lsstsw
+SHELL=/bin/bash
+TERM=linux
+HISTSIZE=1000
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+USER=lsstsw
+MAIL=/var/spool/mail/lsstsw
+PATH=/lsst/home/lsstsw/lsst_build/bin:/lsst/home/lsstsw/bin:/lsst/home/lsstsw/lfs/bin:/lsst/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/lsst/home/lsstsw/eups/1.5.4/bin
+PWD=/lsst/home/lsstsw
+SETUP_LSST_BUILD=lsst_build LOCAL:/lsst/home/lsstsw/lsst_build -f Linux64 -Z (none)
+LANG=en_US.UTF-8
+KDE_IS_PRELINKED=1
+SCONSFLAGS=opt=3
+REF_LIST= -r master
+KDEDIRS=/usr
+EUPS_PATH=/lsst/home/lsstsw/stack
+EUPS_SHELL=sh
+HISTCONTROL=ignoredups
+SHLVL=2
+HOME=/lsst/home/lsstsw
+LSST_BUILD_DIR=/lsst/home/lsstsw/lsst_build
+SETUP_EUPS=eups
+EUPS_DIR=/lsst/home/lsstsw/eups/1.5.4
+PYTHONPATH=/lsst/home/lsstsw/lsst_build/python:/lsst/home/lsstsw/eups/1.5.4/python
+EUPSPKG_SOURCE=package
+LOGNAME=lsstsw
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+G_BROKEN_FILENAMES=1
+_=/usr/bin/printenv
+Rebuild is commencing....stand by; using  -r master
+,4114:1           lsst_sims:  ok (0.6 sec).
+            sims_maf:  ok (1.8 sec).
+                base:  ok (0.6 sec).
+               boost:  ok (0.7 sec).
+              python:  ok (0.5 sec).
+          sconsUtils:  ok (0.8 sec).
+               scons:  ok (0.5 sec).
+             doxygen:  ok (0.5 sec).
+                swig:  ok (0.6 sec).
+               numpy:  ok (0.4 sec).
+          matplotlib:  ok (0.3 sec).
+             pyephem:  ok (0.5 sec).
+               palpy:  ok (0.5 sec).
+          pex_config:  ok (1.3 sec).
+            daf_base:  ok (1.3 sec).
+               utils:  ok (0.6 sec).
+      pex_exceptions:  ok (0.9 sec).
+          pex_policy:  ok (0.6 sec).
+sims_catalogs_generation:  ok (1.3 sec).
+      sims_photUtils:  ok (1.4 sec).
+sims_catalogs_measures:  ok (1.1 sec).
+    sims_sed_library:  ok (0.7 sec).
+       sims_dustmaps:  ok (0.6 sec).
+     sims_coordUtils:  ok (1.0 sec).
+         throughputs:  ok (0.4 sec).
+              pyfits:  ok (0.5 sec).
+                 afw:  ok (5.7 sec).
+     daf_persistence:  ok (1.0 sec).
+         mysqlclient:  ok (0.6 sec).
+         pex_logging:  ok (1.2 sec).
+             ndarray:  ok (0.9 sec).
+               eigen:  ok (0.4 sec).
+                fftw:  ok (0.4 sec).
+             cfitsio:  ok (0.4 sec).
+              wcslib:  ok (0.4 sec).
+                 xpa:  ok (0.5 sec).
+             minuit2:  ok (0.6 sec).
+                 gsl:  ok (0.5 sec).
+             afwdata:  ok (0.5 sec).
+              healpy:  ok (0.5 sec).
+         pykg_config:  ok (0.3 sec).
+         obs_lsstSim:  ok (1.3 sec).
+     daf_butlerUtils:  ok (1.1 sec).
+              skypix:  ok (0.6 sec).
+                geom:  ok (0.7 sec).
+     meas_algorithms:  ok (1.9 sec).
+           pipe_base:  ok (1.4 sec).
+            obs_test:  ok (1.0 sec).
+           meas_base:  ok (2.9 sec).
+         coadd_utils:  ok (0.7 sec).
+              ip_isr:  ok (1.2 sec).
+          pipe_tasks:  ok (2.6 sec).
+         meas_astrom:  ok (1.5 sec).
+      astrometry_net:  ok (0.5 sec).
+      meas_deblender:  ok (1.4 sec).
+ astrometry_net_data:  ok (0.4 sec).
+           ip_diffim:  ok (1.2 sec).
+    coadd_chisquared:  ok (0.6 sec).
+              skymap:  ok (0.7 sec).
+         mysqlpython:  ok (0.5 sec).
+       sims_catUtils:  ok (1.3 sec).
+             pymssql:  ok (0.3 sec).
+             freetds:  ok (0.5 sec).
+        lsst_distrib:  ok (0.6 sec).
+                lsst:  ok (1.0 sec).
+           lsst_apps:  ok (0.6 sec).
+           lsst_libs:  ok (0.6 sec).
+     lsst_thirdparty:  ok (0.5 sec).
+                 apr:  ok (0.5 sec).
+              scisql:  ok (0.7 sec).
+               mysql:  ok (0.5 sec).
+              sqlite:  ok (0.4 sec).
+       meas_modelfit:  ok (1.3 sec).
+            shapelet:  ok (1.0 sec).
+            obs_sdss:  ok (1.2 sec).
+        ctrl_execute:  ok (0.9 sec).
+           ctrl_orca:  ok (1.0 sec).
+                 cat:  ok (0.9 sec).
+                  db:  ok (0.7 sec).
+                 log:  ok (0.6 sec).
+             log4cxx:  ok (0.5 sec).
+            apr_util:  ok (0.5 sec).
+         pex_harness:  ok (1.1 sec).
+         ctrl_events:  ok (0.9 sec).
+         activemqcpp:  ok (0.4 sec).
+     ctrl_provenance:  ok (0.8 sec).
+ctrl_platform_gordon:  ok (0.6 sec).
+  ctrl_platform_lsst:  ok (0.6 sec).
+             datarel:  ok (1.3 sec).
+                  ap:  ok (1.5 sec).
+    testing_endtoend:  ok (0.6 sec).
+       qserv_distrib:  ok (0.6 sec).
+               qserv:  ok (5.2 sec).
+               antlr:  ok (0.6 sec).
+               kazoo:  ok (0.4 sec).
+           luaxmlrpc:  ok (0.5 sec).
+                 lua:  ok (0.6 sec).
+            luaexpat:  ok (0.7 sec).
+               expat:  ok (0.6 sec).
+           luasocket:  ok (0.6 sec).
+          mysqlproxy:  ok (0.5 sec).
+            libevent:  ok (0.5 sec).
+            protobuf:  ok (0.5 sec).
+             twisted:  ok (0.3 sec).
+       zopeinterface:  ok (0.3 sec).
+              xrootd:  ok (0.5 sec).
+           zookeeper:  ok (0.5 sec).
+           partition:  ok (0.4 sec).
+      qserv_testdata:  ok (1.5 sec).
+                 git:  ok (0.5 sec).
+            anaconda:  ok (0.6 sec).
+,18:0# BUILD ID: b587
+,5934:1             cfitsio: 3360.lsst1 (already installed).
+         throughputs: master-ga6e2efc0c9 (already installed).
+               eigen: 3.2.0 (already installed).
+               antlr: 2.7.7 (already installed).
+           zookeeper: 3.4.6 (already installed).
+         mysqlclient: 5.1.73.lsst1 (already installed).
+              sqlite: 3080200 (already installed).
+             minuit2: 5.28.00 (already installed).
+               mysql: 5.1.65.lsst1 (already installed).
+             pyephem: 3.7.5.1.lsst1 (already installed).
+              wcslib: 4.14+7 (already installed).
+                 xpa: 2.1.15.lsst1 (already installed).
+                 lua: 5.1.4 (already installed).
+    sims_sed_library: 2014.10.06 (already installed).
+             freetds: 2014.04.07 (already installed).
+                 apr: 1.3.3.lsst2 (already installed).
+       sims_dustmaps: 2014.09.23 (already installed).
+              python: 0.0.2 (already installed).
+                swig: 3.0.2.lsst1 (already installed).
+       zopeinterface: 3.8.0 (already installed).
+              xrootd: 4.0.0rc4-qsClient2 (already installed).
+         pykg_config: 1.2.0+2 (already installed).
+            libevent: 2.0.16-stable (already installed).
+             pymssql: 2.0.0+2 (already installed).
+             doxygen: 1.8.5 (already installed).
+               boost: 1.55.0.1.lsst2 (already installed).
+                fftw: 3.3.3 (already installed).
+         mysqlpython: 1.2.3+13 (already installed).
+               expat: 2.0.1 (already installed).
+                 gsl: 1.16.lsst1 (already installed).
+            apr_util: 1.3.4.lsst2 (already installed).
+               kazoo: 2.0b1 (already installed).
+          mysqlproxy: 0.8.2+2 (already installed).
+           luasocket: 2.0.2 (already installed).
+               palpy: 1.2 (already installed).
+              scisql: 0.3.4+2 (already installed).
+             twisted: 12.0.0 (already installed).
+               scons: 2.3.0+1 (already installed).
+            luaexpat: 1.1 (already installed).
+          sconsUtils: master-g9a7533b2ae (already installed).
+               numpy: 0.0.1+2 (already installed).
+      astrometry_net: 0.50.1+3 (already installed).
+             afwdata: 10.0+2 (already installed).
+              pyfits: 3.2.4.lsst1 (already installed).
+              healpy: 1.8.1+3 (already installed).
+                lsst: 10.0+1 (already installed).
+                geom: 10.0+2 (already installed).
+             log4cxx: 0.10.0.lsst1+2 (already installed).
+            protobuf: 2.4.1 (already installed).
+                  db: master-g3cce271c61+2 (already installed).
+          matplotlib: 0.0.1+2 (already installed).
+                base: 10.0+3 (already installed).
+             ndarray: 10.0+2 (already installed).
+           partition: 10.0+2 (already installed).
+     lsst_thirdparty: 10.0+3 (already installed).
+           luaxmlrpc: 1.2.1-2 (already installed).
+         activemqcpp: 3.5.0+15 (already installed).
+ astrometry_net_data: 10.0+2 (already installed).
+      pex_exceptions: 10.0+2 (already installed).
+               utils: 10.0+2 (already installed).
+                 log: 10.0+3 (already installed).
+sims_catalogs_generation: master-g7bf1047834+4 (already installed).
+            daf_base: master-g06cae74964 (already installed).
+               qserv: master-gf632c72a06 (already installed).
+sims_catalogs_measures: master-gac383202b7+4 (already installed).
+      qserv_testdata: 10.0+17 (already installed).
+          pex_policy: 10.0+3 (already installed).
+         pex_logging: 10.0+3 (already installed).
+          pex_config: 10.0+3 (already installed).
+       qserv_distrib: 1.0.0+82 (already installed).
+     daf_persistence: 10.0+4 (already installed).
+                 cat: master-g8bcc5e6060+4 (already installed).
+     ctrl_provenance: 10.0+7 (already installed).
+           lsst_libs: 10.0+4 (already installed).
+                 afw: master-gd580f15959 (already installed).
+     sims_coordUtils: master-g4c96225e23+9 (already installed).
+         ctrl_events: master-g6f35c86b98+2 (already installed).
+      sims_photUtils: master-g9572b3e4b3+2 (already installed).
+              skypix: 10.0+7 (already installed).
+            shapelet: 10.0+7 (already installed).
+              skymap: 10.0+7 (already installed).
+         pex_harness: 10.0+13 (already installed).
+           ctrl_orca: 10.0+14 (already installed).
+     daf_butlerUtils: 10.0+8 (already installed).
+    testing_endtoend: 10.0+13 (already installed).
+            obs_test: 10.0+7 (already installed).
+        ctrl_execute: 10.0+14 (already installed).
+           pipe_base: 10.0+7 (already installed).
+  ctrl_platform_lsst: 10.0+14 (already installed).
+         coadd_utils: 10.0+8 (already installed).
+    coadd_chisquared: 10.0+8 (already installed).
+ctrl_platform_gordon: 10.0+14 (already installed).
+           meas_base: master-g56c071863e+2 (already installed).
+     meas_algorithms: master-gdeb1434fa4+2 (already installed).
+              ip_isr: 10.0+12 (already installed).
+      meas_deblender: 10.0+11 (already installed).
+           ip_diffim: 10.0+12 (already installed).
+                  ap: 10.0+12 (already installed).
+         meas_astrom: 10.0+11 (already installed).
+          pipe_tasks: master-g80a4fc0e4d+11 (already installed).
+            obs_sdss: master-g83a9d60184+12 (already installed).
+         obs_lsstSim: 10.0+13 (already installed).
+            sims_maf: master-g85703ecbc6 (already installed).
+             datarel: 10.0+19 (already installed).
+       sims_catUtils: master-g41576e0700+14 (already installed).
+       meas_modelfit: 10.0+13 (already installed).
+           lsst_sims: master-g69b085209b+384 (already installed).
+           lsst_apps: 10.0+15 (already installed).
+        lsst_distrib: 10.0+20 (already installed).
+                 git: 1.8.5.2 (already installed).
+            anaconda: 2.1.0 (already installed).
+,25:0# BUILD b587 completed.
+,70:1The DM stack has been installed at /lsst/home/lsstsw with tag: b587.
+,450:0Start Documentation build at: Thu Dec 18 15:01:48 CST 2014
+WORK_DIR: /lsst/home/lsstsw/build
+BUILD_NUM: b588
+whoami: lsstsw
+DATE: 2014_12_18_15.01.48
+REMOTE_USER buildbot
+REMOTE_HOST: lsst-dev.ncsa.illinois.edu
+REMOTE_DIR: /lsst/home/buildbot/public_html/doxygen
+DESTINATION: buildbot@lsst-dev.ncsa.illinois.edu:/lsst/home/buildbot/public_html/doxygen
+DOXY_TYPE: b588
+NORMATIVE_DOXY_TYPE: master
+SCM_SERVER: git.lsstcorp.org
+/nfs/lsst/home/buildbot
+,31:1Cloning into 'lsstDoxygen'...
+,10001:0SCM_LOCAL_DIR: lsstDoxygen
+doxygen               1.8.5      	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b261 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 v9_1 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b164 b167 b166 b163 b162 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b288 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b491 b559 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b558 b490 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b316 b317 b314 b315 b312 b313 b310 b311 setup
+lsstDoxygen           LOCAL:/nfs/lsst/home/lsstsw/build/lsstDoxygen 	setup
+lsst_build            LOCAL:/lsst/home/lsstsw/lsst_build 	setup
+python                0.0.2      	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b261 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b167 b166 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b288 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b491 b490 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b246 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b424 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b558 b559 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b316 b317 b314 b315 b312 b313 b310 b311 setup
+scons                 2.3.0+1    	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b261 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b167 b166 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b288 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b491 b490 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b558 b559 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b316 b317 b314 b315 b312 b313 b310 b311 setup
+sconsUtils            master-g9a7533b2ae 	b579 b576 b577 b574 b575 b570 b571 b558 b559 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b555 b556 b578 b572 b573 b587 b588 setup
+scons: Reading SConscript files ...
+Checking who built the CC compiler...error: no result
+CC is gcc version 4.4.7
+Checking for C++11 support
+Checking whether the C++ compiler worksno
+Checking whether the C++ compiler worksyes
+C++11 supported with '-std=c++0x'
+Checking for C++ header file tr1/unordered_map... yes
+Setting up environment to build package 'lsstDoxygen'.
+scons: done reading SConscript files.
+scons: Building targets ...
+buildConfig(["doc/doxygen.conf"], ["doc/doxygen.conf.in"])
+doxygen /nfs/lsst/home/lsstsw/build/lsstDoxygen/doc/doxygen.conf
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for files to exclude
+Searching for files to process...
+Searching for files in directory /nfs/lsst/home/lsstsw/build/lsstDoxygen/doc
+Reading and parsing tag files
+Parsing files
+Preprocessing /nfs/lsst/home/lsstsw/build/lsstDoxygen/doc/mainpage.dox...
+Parsing file /nfs/lsst/home/lsstsw/build/lsstDoxygen/doc/mainpage.dox...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Creating members for template instances...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating file documentation...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating namespace index...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member i,234:0ndex...
+Generating example index...
+finalizing index lists...
+lookup cache used 0/65536 hits=0 misses=0
+finished...
+makeVersionModule(["python/lsst/lsstDoxygen/version.py"], [])
+scons: done building targets.
+DATAREL_VERSION: 10.0+19
+,10001:0Packages setup:
+activemqcpp           3.5.0+15   	b578 b579 b576 b577 b574 b575 b570 b571 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b572 b573 b587 b588 setup
+afw                   master-gd580f15959 	b586 b585 b584 b583 b582 b581 b580 b588 b587 setup
+afwdata               10.0+2     	b579 b576 b577 b574 b575 b570 b571 b578 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b588 b555 b556 b572 b573 b587 setup
+ap                    10.0+12    	b587 b586 b585 b584 b583 b581 b580 b588 setup
+apr                   1.3.3.lsst2 	b578 b579 b576 b577 b574 b575 b570 b571 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b572 b573 b587 b588 setup
+apr_util              1.3.4.lsst2 	b578 b579 b576 b577 b574 b575 b570 b571 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b572 b573 b587 b588 setup
+astrometry_net        0.50.1+3   	b578 b576 b577 b574 b575 b570 b571 b558 b559 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b579 b572 b573 b587 b588 setup
+astrometry_net_data   10.0+2     	b579 b576 b577 b574 b575 b570 b571 b578 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b588 b555 b556 b572 b573 b587 setup
+base                  10.0+3     	b579 b576 b577 b574 b575 b572 b573 b570 b571 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b588 b555 b556 b578 b587 setup
+boost                 1.55.0.1.lsst2 	b576 b577 b574 b575 b572 b570 b571 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b585 b584 b583 b582 b581 b580 b588 b586 b553 b554 b555 b556 b557 b558 b559 b578 b579 b573 b587 setup
+cat                   master-g8bcc5e6060+4 	b586 b585 b584 b583 b582 b581 b580 b588 b579 b587 setup
+cfitsio               3360.lsst1 	b578 b576 b577 b574 b575 b570 b571 b558 b559 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b552 b553 b554 b555 b556 b557 b579 b572 b573 b587 b588 setup
+coadd_chisquared      10.0+8     	b587 b586 b585 b584 b583 b581 b580 b588 setup
+coadd_utils           10.0+8     	b587 b586 b585 b584 b583 b581 b580 b588 setup
+ctrl_events           master-g6f35c86b98+2 	b585 b584 b583 b581 b580 b588 b586 b579 b587 setup
+ctrl_orca             10.0+14    	b587 b586 b585 b584 b583 b581 b580 b588 setup
+ctrl_provenance       10.0+7     	b579 b586 b585 b584 b583 b582 b581 b580 b588 b587 setup
+daf_base              master-g06cae74964 	b585 b584 b583 b582 b581 b580 b586 b579 b587 b588 setup
+daf_butlerUtils       10.0+8     	b587 b586 b585 b584 b583 b581 b580 b588 setup
+daf_persistence       10.0+4     	b587 b586 b585 b584 b583 b582 b581 b580 b588 b579 setup
+datarel               10.0+19    	b587 b585 b584 b583 b581 b580 b588 b586 setup
+db                    master-g3cce271c61+2 	b578 b579 b576 b577 b574 b575 b570 b571 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b555 b556 b572 b573 b587 b588 setup
+doxygen               1.8.5      	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b261 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 v9_1 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b164 b167 b166 b163 b162 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b288 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b491 b559 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b558 b490 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b316 b317 b314 b315 b312 b313 b310 b311 setup
+eigen                 3.2.0      	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 v9_1 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b164 b167 b166 b163 b162 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b288 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b491 b559 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b246 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b558 b490 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b316 b317 b314 b315 b312 b313 b310 b311 setup
+fftw                  3.3.3      	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 v9_1 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b164 b167 b166 b163 b162 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b288 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b491 b559 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b558 b490 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b316 b317 b314 b315 b312 b313 b310 b311 setup
+geom                  10.0+2     	b579 b576 b577 b574 b575 b572 b573 b570 b571 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b588 b555 b556 b578 b587 setup
+gsl                   1.16.lsst1 	b578 b576 b577 b574 b575 b570 b571 b558 b559 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b579 b572 b573 b587 b588 setup
+ip_dif,10001:0fim             10.0+12    	b587 b586 b585 b584 b583 b581 b580 b588 setup
+ip_isr                10.0+12    	b586 b585 b584 b583 b581 b580 b587 b588 setup
+log4cxx               0.10.0.lsst1+2 	b578 b579 b576 b577 b574 b575 b572 b573 b571 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b557 b587 b585 b584 b583 b582 b581 b580 b588 b553 b586 b554 b555 b556 b558 b559 setup
+log                   10.0+3     	b578 b579 b576 b577 b574 b575 b572 b573 b571 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b587 b585 b584 b583 b582 b581 b580 b588 b586 b555 b556 b558 b559 setup
+lsstDoxygen           LOCAL:/nfs/lsst/home/lsstsw/build/lsstDoxygen 	setup
+lsst_build            LOCAL:/lsst/home/lsstsw/lsst_build 	setup
+matplotlib            0.0.1+2    	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b167 b166 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b288 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b558 b490 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b491 b559 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b317 b314 b315 b312 b313 b310 b311 setup
+meas_algorithms       master-gdeb1434fa4+2 	b587 b586 b585 b584 b583 b581 b580 b588 setup
+meas_astrom           10.0+11    	b587 b586 b585 b584 b583 b581 b580 b588 setup
+meas_base             master-g56c071863e+2 	b587 b585 b584 b583 b581 b580 b588 b586 setup
+meas_deblender        10.0+11    	b587 b586 b585 b584 b583 b581 b580 b588 setup
+minuit2               5.28.00    	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 v9_1 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b164 b167 b166 b163 b162 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b288 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b491 b559 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b246 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b558 b490 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b316 b317 b314 b315 b312 b313 b310 b311 setup
+mysql                 5.1.65.lsst1 	b578 b579 b576 b577 b574 b575 b570 b571 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b572 b573 b587 b588 setup
+mysqlclient           5.1.73.lsst1 	b578 b576 b577 b574 b575 b570 b571 b558 b559 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b579 b572 b573 b587 b588 setup
+mysqlpython           1.2.3+13   	b578 b576 b577 b574 b575 b570 b571 b558 b559 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b579 b572 b573 b587 b588 setup
+ndarray               10.0+2     	b576 b577 b574 b575 b570 b571 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b585 b584 b583 b582 b581 b580 b588 b586 b555 b556 b558 b559 b578 b579 b572 b573 b587 setup
+numpy                 0.0.1+2    	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b261 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b167 b166 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b288 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b491 b490 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b558 b559 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b316 b317 b314 b315 b312 b313 b310 b311 setup
+obs_lsstSim           10.0+13    	b587 b586 b585 b584 b583 b581 b580 b588 setup
+obs_test              10.0+7     	b585 b584 b583 b581 b580 b588 b586 b587 setup
+pex_config            10.0+3     	b586 b585 b584 b583 b582 b581 b580 b588 b579 b587 setup
+pex_exceptions        10.0+2     	b576 b577 b574 b575 b572 b570 b571 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b585 b584 b583 b582 b581 b580 b588 b586 b555 b556 b558 b559 b578 b579 b573 b587 setup
+pex_harness           10.0+13    	b587 b586 b585 b584 b583 b581 b580 b588 setup
+pex_logging           10.0+3     	b579 b587 b586 b585 b584 b583 b582 b581 b580 b588 setup
+pex_policy            10.0+3     	b579 b587 b586 b585 b584 b583 b582 b581 b580 b588 setup
+pipe_base             10.0+7     	b587 b586 b585 b584 b583 b581 b580 b588 setup
+pipe_tasks            master-g80a4fc0e4d+11 	b587 b585 b584 b583 b581 b580 b588 b586 setup
+pyfits                3.2.4.lsst1 	b578 b576 b577 b574 b575 b570 b571 b558 b559 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b579 b572 b573 b587 b588 setup
+python                0.0.2      	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b261 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b167 b166 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b2,5001:088 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b491 b490 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b246 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b424 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b558 b559 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b316 b317 b314 b315 b312 b313 b310 b311 setup
+scisql                0.3.4+2    	b578 b579 b576 b577 b574 b575 b570 b571 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b572 b573 b587 b588 setup
+scons                 2.3.0+1    	b543 b542 b541 b540 b547 b546 b545 b544 b549 b548 b381 b380 b268 b269 b385 b384 b387 b386 b262 b263 b260 b261 b266 b267 b264 b265 b183 b182 b181 b180 b187 b186 b185 b184 b189 b188 b442 b443 b440 b441 b446 b447 b444 b445 b448 b449 b383 b382 b389 b388 b345 b344 b347 b346 b341 b340 b228 b342 b226 b224 b225 b222 b223 b220 b221 b538 b539 b532 b533 b530 b531 b536 b537 b535 b330 v9_2 b406 b407 b404 b405 b402 b403 b400 b401 b408 b409 b522 b168 b165 b167 b166 b309 b308 b301 b300 b303 b302 b305 b304 b307 b306 b275 b274 b277 b276 b271 b270 b578 b579 b576 b577 b574 b575 b279 b573 b570 b571 b378 b379 b374 b375 b376 b377 b370 b371 b372 b373 b288 b289 b280 b281 b282 b283 b284 b285 b286 b287 b550 b551 b508 b459 b458 b455 b454 b457 b456 b451 b450 b453 b452 b491 b490 b239 b331 b332 b333 b334 b335 b336 b337 b338 b339 b233 b232 b235 b234 b237 b236 b200 b390 b201 b391 b525 b561 b527 b526 b521 b520 b488 b486 b487 b484 b485 b482 b483 b480 b481 b248 b249 b245 b247 b240 b241 b242 b243 b399 b411 b410 b413 b412 b415 b414 b417 b416 b419 b418 b190 b231 b230 b195 b464 b465 b466 b467 b460 b461 b462 b463 b468 b469 b569 b568 b202 b203 b204 b205 b206 b207 b208 b560 b563 b562 b565 b564 b567 b566 b369 b368 b367 b366 b365 b364 b363 b362 b361 b360 v9_1_1 b430 b518 b519 b514 b515 b516 b517 b510 b511 b512 b513 b299 b298 b293 b292 b291 b290 b297 b296 b295 b294 b428 b586 b585 b584 b583 b582 b581 b580 b420 b421 b422 b423 b425 b426 b427 b524 b523 b489 b323 b322 b321 b320 b327 b326 b325 b324 b329 b328 b529 b528 b499 b498 b552 b553 b554 b555 b556 b557 b558 b559 b493 b492 b495 b494 b497 b496 b396 b397 b394 b395 b392 b393 b259 b258 b257 b256 b255 b254 b253 b398 b250 sims b191 b192 b193 b194 b273 b196 b197 b198 b199 b272 b572 b278 b477 b476 b475 b474 b473 b472 b471 b470 b479 b478 b343 b229 b349 b348 b213 b212 b217 b215 b219 b218 b358 b359 b352 b353 b350 b351 b356 b357 b354 b355 b587 b509 b429 b507 b506 b505 b504 b503 b502 b501 b500 b439 b438 b433 b432 b431 b588 b437 b436 b435 b434 b172 b173 b171 b176 b177 b178 b179 b238 b318 b319 b316 b317 b314 b315 b312 b313 b310 b311 setup
+sconsUtils            master-g9a7533b2ae 	b579 b576 b577 b574 b575 b570 b571 b558 b559 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b555 b556 b578 b572 b573 b587 b588 setup
+skymap                10.0+7     	b587 b586 b585 b584 b583 b581 b580 b588 setup
+skypix                10.0+7     	b587 b586 b585 b584 b583 b581 b580 b588 setup
+swig                  3.0.2.lsst1 	b578 b579 b576 b577 b574 b575 b570 b571 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b588 b553 b554 b555 b556 b557 b558 b559 b572 b573 b587 setup
+utils                 10.0+2     	b576 b577 b574 b575 b572 b573 b570 b571 b578 b558 b559 b569 b568 b561 b560 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b588 b555 b556 b579 b587 setup
+wcslib                4.14+7     	b578 b576 b577 b574 b575 b570 b571 b558 b559 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b552 b553 b554 b555 b556 b557 b579 b572 b573 b587 b588 setup
+xpa                   2.1.15.lsst1 	b578 b576 b577 b574 b575 b570 b571 b558 b559 b560 b569 b568 b561 b563 b562 b565 b564 b567 b566 b586 b585 b584 b583 b582 b581 b580 b553 b554 b555 b556 b557 b579 b572 b573 b587 b588 setup
+
+,753:1Unable to find pykg_config's doxygen.conf file
+Unable to find db's doxygen.conf file
+Unable to find obs_test's doxygen.conf file
+Unable to find condor's doxygen.conf file
+Unable to find condor_glidein's doxygen.conf file
+Unable to find mysql's doxygen.conf file
+Unable to find cat's doxygen.conf file
+Unable to find scisql's doxygen.conf file
+Unable to find healpy's doxygen.conf file
+Unable to find ctrl_orca's doxygen.conf file
+Unable to find ctrl_provenance's doxygen.conf file
+Unable to find mysqlpython's doxygen.conf file
+Unable to find activemqcpp's doxygen.conf file
+Unable to find obs_lsstSim's doxygen.conf file
+Unable to find cuda_toolkit's doxygen.conf file
+Unable to find apr's doxygen.conf file
+Unable to find log4cxx's doxygen.conf file
+,183:2
+remoteFailed: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+],

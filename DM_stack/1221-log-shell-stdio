@@ -1,0 +1,81 @@
+1670:2/lsst/home/buildbot/RHEL6//scripts/lsstswBuild.sh --branch master --builder_name DM_stack --build_number 1221 --email 'everyman <lsst-dm-dev@lsstcorp.org>'
+ in dir /lsst/home/lsstsw (timeout 16200 secs)
+ watching logfiles {}
+ argv: ['/lsst/home/buildbot/RHEL6//scripts/lsstswBuild.sh', '--branch', 'master', '--builder_name', 'DM_stack', '--build_number', '1221', '--email', 'everyman <lsst-dm-dev@lsstcorp.org>']
+ environment:
+  CVS_RSH=ssh
+  EUPSPKG_SOURCE=package
+  EUPS_DIR=/lsst/home/lsstsw/eups/1.5.4
+  EUPS_PATH=/lsst/home/lsstsw/stack
+  EUPS_SHELL=sh
+  G_BROKEN_FILENAMES=1
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HOME=/lsst/home/lsstsw
+  HOSTNAME=lsst-dev.ncsa.illinois.edu
+  KDEDIRS=/usr
+  KDE_IS_PRELINKED=1
+  LANG=en_US.UTF-8
+  LESSOPEN=|/usr/bin/lesspipe.sh %s
+  LOGNAME=lsstsw
+  LSST_BUILD_DIR=/lsst/home/lsstsw/lsst_build
+  MAIL=/var/spool/mail/lsstsw
+  MANPATH=/lsst/home/lsstsw/lfs/share/man:
+  OLDPWD=/nfs/lsst/home/lsstsw
+  PATH=/lsst/home/lsstsw/lsst_build/bin:/lsst/home/lsstsw/bin:/lsst/home/lsstsw/lfs/bin:/lsst/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/lsst/home/lsstsw/eups/1.5.4/bin:/lsst/home/lsstsw/bin
+  PWD=/lsst/home/lsstsw
+  PYTHONPATH=/lsst/home/lsstsw/lsst_build/python:/lsst/home/lsstsw/eups/1.5.4/python
+  QTDIR=/usr/lib64/qt-3.3
+  QTINC=/usr/lib64/qt-3.3/include
+  QTLIB=/usr/lib64/qt-3.3/lib
+  SCONSFLAGS=opt=3
+  SETUP_EUPS=eups
+  SETUP_LSST_BUILD=lsst_build LOCAL:/lsst/home/lsstsw/lsst_build -f Linux64 -Z (none)
+  SHELL=/bin/bash
+  SHLVL=1
+  TERM=linux
+  USER=lsstsw
+  _=/lsst/home/lsstsw/.local/bin/buildslave
+ using PTY: False
+,1388:0BRANCH:master master:
+REF_LIST:  -r master -r master   pwd: /lsst/home/lsstsw    NEW_BUILD: no
+Check reusable stack has well-formed eups directory
+notice: lsstsw tools have been set up.
+MANPATH=/lsst/home/lsstsw/lfs/share/man:
+HOSTNAME=lsst-dev.ncsa.illinois.edu
+LSSTSW=/lsst/home/lsstsw
+SHELL=/bin/bash
+TERM=linux
+HISTSIZE=1000
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+USER=lsstsw
+MAIL=/var/spool/mail/lsstsw
+PATH=/lsst/home/lsstsw/lsst_build/bin:/lsst/home/lsstsw/bin:/lsst/home/lsstsw/lfs/bin:/lsst/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/lsst/home/lsstsw/eups/1.5.4/bin
+PWD=/lsst/home/lsstsw
+SETUP_LSST_BUILD=lsst_build LOCAL:/lsst/home/lsstsw/lsst_build -f Linux64 -Z (none)
+LANG=en_US.UTF-8
+KDE_IS_PRELINKED=1
+SCONSFLAGS=opt=3
+REF_LIST= -r master -r master
+KDEDIRS=/usr
+EUPS_PATH=/lsst/home/lsstsw/stack
+EUPS_SHELL=sh
+HISTCONTROL=ignoredups
+SHLVL=2
+HOME=/lsst/home/lsstsw
+LSST_BUILD_DIR=/lsst/home/lsstsw/lsst_build
+SETUP_EUPS=eups
+EUPS_DIR=/lsst/home/lsstsw/eups/1.5.4
+PYTHONPATH=/lsst/home/lsstsw/lsst_build/python:/lsst/home/lsstsw/eups/1.5.4/python
+EUPSPKG_SOURCE=package
+LOGNAME=lsstsw
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+G_BROKEN_FILENAMES=1
+_=/usr/bin/printenv
+Rebuild is commencing....stand by; using  -r master -r master
+,183:2
+remoteFailed: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+],

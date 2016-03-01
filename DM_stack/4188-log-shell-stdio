@@ -1,0 +1,265 @@
+1652:2/lsst/home/buildbot/RHEL6//scripts/lsstswBuild.sh --branch u/krughoff/DM-1296 --builder_name DM_stack --build_number 4188 --email 'Simon Krughoff <simon.krughoff@gmail.com>'
+ in dir /lsst/home/lsstsw (timeout 16200 secs)
+ watching logfiles {}
+ argv: ['/lsst/home/buildbot/RHEL6//scripts/lsstswBuild.sh', '--branch', 'u/krughoff/DM-1296', '--builder_name', 'DM_stack', '--build_number', '4188', '--email', 'Simon Krughoff <simon.krughoff@gmail.com>']
+ environment:
+  CVS_RSH=ssh
+  EUPSPKG_SOURCE=package
+  EUPS_DIR=/lsst/home/lsstsw/eups/1.5.4
+  EUPS_PATH=/lsst/home/lsstsw/stack
+  EUPS_SHELL=sh
+  G_BROKEN_FILENAMES=1
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HOME=/home/lsstsw
+  HOSTNAME=lsst-dev.ncsa.illinois.edu
+  KDEDIRS=/usr
+  KDE_IS_PRELINKED=1
+  LANG=en_US.UTF-8
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  LOGNAME=lsstsw
+  LSST_BUILD_DIR=/home/lsstsw/lsst_build
+  MAIL=/var/spool/mail/lsstsw
+  MANPATH=/home/lsstsw/lfs/share/man:
+  OLDPWD=/nfs/home/lsstsw
+  PATH=/home/lsstsw/lsst_build/bin:/home/lsstsw/bin:/home/lsstsw/lfs/bin:/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/lsst/home/lsstsw/eups/1.5.4/bin:/home/lsstsw/bin
+  PWD=/lsst/home/lsstsw
+  PYTHONPATH=/home/lsstsw/lsst_build/python:/lsst/home/lsstsw/eups/1.5.4/python
+  QTDIR=/usr/lib64/qt-3.3
+  QTINC=/usr/lib64/qt-3.3/include
+  QTLIB=/usr/lib64/qt-3.3/lib
+  SCONSFLAGS=opt=3
+  SETUP_EUPS=eups
+  SETUP_LSST_BUILD=lsst_build LOCAL:/home/lsstsw/lsst_build -f Linux64 -Z (none)
+  SHELL=/bin/bash
+  SHLVL=1
+  TERM=linux
+  USER=lsstsw
+  _=/lsst/home/lsstsw/.local/bin/buildslave
+ using PTY: False
+,1496:0BRANCH:u/krughoff/DM-1296 master:
+REF_LIST:  -r u/krughoff/DM-1296 -r master   pwd: /lsst/home/lsstsw    NEW_BUILD: no
+Check reusable stack has well-formed eups directory
+notice: lsstsw tools have been set up.
+MANPATH=/lsst/home/lsstsw/lfs/share/man:
+HOSTNAME=lsst-dev.ncsa.illinois.edu
+LSSTSW=/lsst/home/lsstsw
+SHELL=/bin/bash
+TERM=linux
+HISTSIZE=1000
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+USER=lsstsw
+MAIL=/var/spool/mail/lsstsw
+PATH=/lsst/home/lsstsw/lsst_build/bin:/lsst/home/lsstsw/bin:/lsst/home/lsstsw/lfs/bin:/lsst/home/lsstsw/anaconda/bin:/home/lsstsw/bin:/home/lsstsw/lfs/bin:/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/lsst/home/lsstsw/eups/1.5.4/bin
+PWD=/lsst/home/lsstsw
+SETUP_LSST_BUILD=lsst_build LOCAL:/lsst/home/lsstsw/lsst_build -f Linux64 -Z (none)
+LANG=en_US.UTF-8
+KDE_IS_PRELINKED=1
+SCONSFLAGS=opt=3
+REF_LIST= -r u/krughoff/DM-1296 -r master
+KDEDIRS=/usr
+EUPS_PATH=/lsst/home/lsstsw/stack
+EUPS_SHELL=sh
+HISTCONTROL=ignoredups
+SHLVL=2
+HOME=/home/lsstsw
+LSST_BUILD_DIR=/lsst/home/lsstsw/lsst_build
+SETUP_EUPS=eups
+EUPS_DIR=/lsst/home/lsstsw/eups/1.5.4
+PYTHONPATH=/lsst/home/lsstsw/lsst_build/python:/lsst/home/lsstsw/eups/1.5.4/python
+EUPSPKG_SOURCE=package
+LOGNAME=lsstsw
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+G_BROKEN_FILENAMES=1
+_=/usr/bin/printenv
+Rebuild is commencing....stand by; using  -r u/krughoff/DM-1296 -r master
+,4369:1           lsst_sims:  ok (1.2 sec).
+            sims_maf:  ok (4.7 sec).
+                base:  ok (1.5 sec).
+               boost:  ok (1.5 sec).
+              python:  ok (0.9 sec).
+          sconsUtils:  ok (2.0 sec).
+               scons:  ok (1.0 sec).
+             doxygen:  ok (0.9 sec).
+                swig:  ok (1.2 sec).
+               numpy:  ok (0.9 sec).
+          matplotlib:  ok (0.9 sec).
+             pyephem:  ok (1.5 sec).
+               palpy:  ok (1.1 sec).
+          pex_config:  ok (1.7 sec).
+            daf_base:  ok (1.9 sec).
+               utils:  ok (1.5 sec).
+      pex_exceptions:  ok (2.1 sec).
+          pex_policy:  ok (1.7 sec).
+sims_catalogs_generation:  ok (3.8 sec).
+      sims_photUtils:  ok (2.6 sec).
+sims_catalogs_measures:  ok (2.0 sec).
+    sims_sed_library:  ok (1.4 sec).
+       sims_dustmaps:  ok (1.7 sec).
+     sims_coordUtils:  ok (2.3 sec).
+         throughputs:  ok (1.2 sec).
+              pyfits:  ok (1.5 sec).
+                 afw:  ok (8.0 sec).
+     daf_persistence:  ok (1.9 sec).
+         mysqlclient:  ok (1.4 sec).
+         pex_logging:  ok (2.2 sec).
+             ndarray:  ok (2.0 sec).
+               eigen:  ok (1.2 sec).
+                fftw:  ok (0.9 sec).
+             cfitsio:  ok (1.1 sec).
+              wcslib:  ok (1.0 sec).
+                 xpa:  ok (0.9 sec).
+             minuit2:  ok (1.0 sec).
+                 gsl:  ok (1.5 sec).
+             afwdata:  ok (4.0 sec).
+              healpy:  ok (1.1 sec).
+         pykg_config:  ok (0.9 sec).
+         obs_lsstSim:  ok (4.2 sec).
+     daf_butlerUtils:  ok (1.4 sec).
+              skypix:  ok (1.5 sec).
+                geom:  ok (1.3 sec).
+     meas_algorithms:  ok (3.4 sec).
+           pipe_base:  ok (2.3 sec).
+            obs_test:  ok (1.9 sec).
+           meas_base:  ok (3.3 sec).
+         coadd_utils:  ok (2.5 sec).
+              ip_isr:  ok (3.2 sec).
+          pipe_tasks:  ok (3.6 sec).
+         meas_astrom:  ok (3.0 sec).
+      astrometry_net:  ok (1.1 sec).
+      meas_deblender:  ok (2.9 sec).
+ astrometry_net_data:  ok (1.4 sec).
+           ip_diffim:  ok (2.8 sec).
+    coadd_chisquared:  ok (2.1 sec).
+              skymap:  ok (1.5 sec).
+         mysqlpython:  ok (1.2 sec).
+       sims_catUtils:  ok (2.4 sec).
+           sims_data:  ok (1.5 sec).
+             pymssql:  ok (1.0 sec).
+             freetds:  ok (0.9 sec).
+              GalSim:  ok (3.2 sec).
+                 tmv:  ok (1.4 sec).
+        lsst_distrib:  ok (1.1 sec).
+                lsst:  ok (1.4 sec).
+           lsst_apps:  ok (1.2 sec).
+           lsst_libs:  ok (1.2 sec).
+     lsst_thirdparty:  ok (1.7 sec).
+                 apr:  ok (1.0 sec).
+              scisql:  ok (1.3 sec).
+               mysql:  ok (1.0 sec).
+              sqlite:  ok (1.0 sec).
+       meas_modelfit:  ok (3.1 sec).
+            shapelet:  ok (1.9 sec).
+            obs_sdss:  ok (2.5 sec).
+        ctrl_execute:  ok (1.9 sec).
+           ctrl_orca:  ok (1.8 sec).
+                 cat:  ok (1.6 sec).
+                  db:  ok (1.3 sec).
+                 log:  ok (2.0 sec).
+             log4cxx:  ok (1.4 sec).
+            apr_util:  ok (0.8 sec).
+         ctrl_events:  ok (2.4 sec).
+         activemqcpp:  ok (1.1 sec).
+     ctrl_provenance:  ok (1.6 sec).
+ctrl_platform_gordon:  ok (1.2 sec).
+  ctrl_platform_lsst:  ok (1.0 sec).
+             datarel:  ok (3.0 sec).
+                  ap:  ok (2.0 sec).
+    testing_endtoend:  ok (1.2 sec).
+       qserv_distrib:  ok (1.1 sec).
+               qserv:  ok (16.6 sec).
+               antlr:  ok (1.1 sec).
+               kazoo:  ok (0.9 sec).
+           luaxmlrpc:  ok (1.1 sec).
+                 lua:  ok (1.0 sec).
+            luaexpat:  ok (0.9 sec).
+               expat:  ok (1.1 sec).
+           luasocket:  ok (1.4 sec).
+          mysqlproxy:  ok (1.0 sec).
+            libevent:  ok (1.0 sec).
+           partition:  ok (1.1 sec).
+            protobuf:  ok (1.1 sec).
+             twisted:  ok (1.3 sec).
+       zopeinterface:  ok (1.2 sec).
+              xrootd:  ok (1.3 sec).
+           zookeeper:  ok (0.9 sec).
+      qserv_testdata:  ok (9.5 sec).
+                 git:  ok (1.2 sec).
+            anaconda:  ok (1.2 sec).
+To git@git.lsstcorp.org:LSST/DMS/devenv/versiondb.git
+   aee3fdf..fe3d8b8  master -> master
+To git@git.lsstcorp.org:LSST/DMS/devenv/versiondb.git
+ * [new tag]         b745 -> b745
+,18:0# BUILD ID: b745
+,3743:1             cfitsio: 3360.lsst1 (already installed).
+         throughputs: master-ga6e2efc0c9 (already installed).
+               eigen: 3.2.0 (already installed).
+               antlr: 2.7.7 (already installed).
+           zookeeper: 3.4.6.lsst1 (already installed).
+         mysqlclient: 5.1.73.lsst1 (already installed).
+              sqlite: master-gc961574b33 (already installed).
+             minuit2: 5.28.00 (already installed).
+               mysql: 5.1.65.lsst1 (already installed).
+             pyephem: 3.7.5.1.lsst1 (already installed).
+              wcslib: 4.14+7 (already installed).
+                 xpa: master-g37475053b1 (already installed).
+                 lua: 5.1.4 (already installed).
+    sims_sed_library: 2014.10.06 (already installed).
+             freetds: 2014.04.07 (already installed).
+                 apr: 1.3.3.lsst2 (already installed).
+       sims_dustmaps: 2014.09.23 (already installed).
+              python: master-g259ae7060d (already installed).
+                swig: 3.0.2.lsst1 (already installed).
+       zopeinterface: 3.8.0+1 (already installed).
+              xrootd: 4.0.0rc3-qsClient2.lsst1 (already installed).
+         pykg_config: 1.2.0+3 (already installed).
+            libevent: master-g7e53c5e44c (already installed).
+             pymssql: 2.0.0+3 (already installed).
+             doxygen: 1.8.5 (already installed).
+               boost: 1.55.0.1.lsst2+1 (already installed).
+           sims_data: master-gdac76d2d31 (already installed).
+                fftw: 3.3.3 (already installed).
+         mysqlpython: 1.2.3+14 (already installed).
+               expat: 2.0.1 (already installed).
+                 gsl: 1.16.lsst1 (already installed).
+            apr_util: 1.3.4.lsst2 (already installed).
+               kazoo: 2.0b1+1 (already installed).
+          mysqlproxy: 0.8.2+5 (already installed).
+           luasocket: 2.0.2 (already installed).
+               palpy: 1.2+1 (already installed).
+              scisql: 0.3.4+3 (already installed).
+             twisted: 12.0.0+1 (already installed).
+               scons: 2.3.0+2 (already installed).
+            luaexpat: 1.1 (already installed).
+          sconsUtils: master-g9a7533b2ae+1 (already installed).
+               numpy: 0.0.1+3 (already installed).
+      astrometry_net: 0.50.1+4 (already installed).
+             afwdata: 10.0+3 (already installed).
+              pyfits: 3.2.4.lsst1+1 (already installed).
+                 tmv: 0.72+1 (already installed).
+              healpy: 1.8.1+4 (already installed).
+                lsst: master-g9ed9d8b09b+1 (already installed).
+                geom: 10.0+3 (already installed).
+             log4cxx: 0.10.0.lsst2 (already installed).
+            protobuf: 2.4.1.lsst1+1 (already installed).
+              GalSim: 1.2.lsst1 (already installed).
+                  db: master-gdcb92e5563+1 (already installed).
+          matplotlib: 0.0.1+3 (already installed).
+                base: master-g548d41d8ed+1 (already installed).
+             ndarray: master-g7408a83a3a+1 (already installed).
+           partition: 1.0.6+1 (already installed).
+     lsst_thirdparty: 10.0+7 (already installed).
+           luaxmlrpc: 1.2.1-2 (already installed).
+         activemqcpp: 3.5.0+15 (already installed).
+ astrometry_net_data: 10.0+3 (already installed).
+      pex_exceptions: 10.0+4 (already installed).
+               utils: master-g64ff11fffb+1 (already installed).
+                 log: master-gfab0203bd3+4 (already installed).
+sims_catalogs_generation: master-g9cc8a13290 (already installed).
+            daf_base: master-g06cae74964+3 (already installed).
+               qserv: master-gecd5c2a19b .................................................................................,183:2
+remoteFailed: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion.
+],

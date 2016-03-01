@@ -1,0 +1,97 @@
+1454:2/home/lsstsw/buildbot-scripts/lsstswBuild.sh --branch None --build_number 7409
+ in dir /lsst/home/lsstsw (timeout 16200 secs)
+ watching logfiles {}
+ argv: ['/home/lsstsw/buildbot-scripts/lsstswBuild.sh', '--branch', 'None', '--build_number', '7409']
+ environment:
+  CVS_RSH=ssh
+  EUPSPKG_SOURCE=package
+  EUPS_DIR=/home/lsstsw/eups/1.5.9
+  EUPS_PATH=/home/lsstsw/stack
+  EUPS_SHELL=sh
+  G_BROKEN_FILENAMES=1
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HOME=/home/lsstsw
+  HOSTNAME=lsst-dev.ncsa.illinois.edu
+  KDEDIRS=/usr
+  KDE_IS_PRELINKED=1
+  LANG=en_US.UTF-8
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  LOGNAME=lsstsw
+  LSSTSW=/home/lsstsw
+  LSST_BUILD_DIR=/home/lsstsw/lsst_build
+  MAIL=/var/spool/mail/lsstsw
+  MANPATH=/home/lsstsw/lfs/share/man:
+  OLDPWD=/nfs/home/lsstsw
+  PATH=/home/lsstsw/lsst_build/bin:/home/lsstsw/bin:/home/lsstsw/lfs/bin:/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/home/lsstsw/eups/1.5.9/bin:/home/lsstsw/bin
+  PWD=/lsst/home/lsstsw
+  PYTHONPATH=/home/lsstsw/lsst_build/python:/home/lsstsw/eups/1.5.9/python
+  QTDIR=/usr/lib64/qt-3.3
+  QTINC=/usr/lib64/qt-3.3/include
+  QTLIB=/usr/lib64/qt-3.3/lib
+  SCONSFLAGS=opt=3
+  SETUP_EUPS=eups
+  SETUP_LSST_BUILD=lsst_build LOCAL:/home/lsstsw/lsst_build -f Linux64 -Z (none)
+  SHELL=/bin/bash
+  SHLVL=1
+  TERM=linux
+  USER=lsstsw
+  _=/lsst/home/lsstsw/.local/bin/buildslave
+ using PTY: False
+,109:1/home/lsstsw/buildbot-scripts/lsstswBuild.sh: line 12: /home/lsstsw/bin/setup.sh: No such file or directory
+,1600:0BUILD_NUMBER: 7409
+BRANCH: master
+PRODUCT:
+BUILD_DOCS: yes
+RUN_DEMO: yes
+NO_FETCH: 0
+REF_LIST: -r master
+LSSTSW: /home/lsstsw
+LSSTSW_BUILD_DIR: /home/lsstsw/build
+DOC_PUSH_USER: buildbot
+DOC_PUSH_HOST: lsst-dev.ncsa.illinois.edu
+DOC_PUSH_PATH: /lsst/home/buildbot/public_html/doxygen
+DOC_REPO_URL: https://github.com/lsst/lsstDoxygen.git
+DOC_REPO_NAME: lsstDoxygen
+DOC_REPO_DIR: /home/lsstsw/build/lsstDoxygen
+DEMO_ROOT: https://github.com/lsst/lsst_dm_stack_demo/archive/master.tar.gz
+DEMO_TGZ: lsst_dm_stack_demo-master.tar.gz
+
+### ENV ###
+MANPATH=/home/lsstsw/lfs/share/man:
+HOSTNAME=lsst-dev.ncsa.illinois.edu
+LSSTSW=/home/lsstsw
+SHELL=/bin/bash
+TERM=linux
+HISTSIZE=1000
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+USER=lsstsw
+MAIL=/var/spool/mail/lsstsw
+PATH=/home/lsstsw/lsst_build/bin:/home/lsstsw/bin:/home/lsstsw/lfs/bin:/home/lsstsw/anaconda/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/lsst/home/lsstsw/.local/bin:/home/lsstsw/eups/1.5.9/bin:/home/lsstsw/bin
+PWD=/lsst/home/lsstsw
+SETUP_LSST_BUILD=lsst_build LOCAL:/home/lsstsw/lsst_build -f Linux64 -Z (none)
+LANG=en_US.UTF-8
+KDE_IS_PRELINKED=1
+SCONSFLAGS=opt=3
+KDEDIRS=/usr
+EUPS_PATH=/home/lsstsw/stack
+EUPS_SHELL=sh
+HISTCONTROL=ignoredups
+SHLVL=2
+HOME=/home/lsstsw
+LSST_BUILD_DIR=/home/lsstsw/lsst_build
+SETUP_EUPS=eups
+EUPS_DIR=/home/lsstsw/eups/1.5.9
+PYTHONPATH=/home/lsstsw/lsst_build/python:/home/lsstsw/eups/1.5.9/python
+EUPSPKG_SOURCE=package
+LOGNAME=lsstsw
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+G_BROKEN_FILENAMES=1
+_=/usr/bin/printenv
+,27:1Failed to find 'rebuild'.
+,56:2program finished with exit code 1
+elapsedTime=0.018657
+,
